@@ -65,7 +65,7 @@ const FormularioProducto = ({ onAgregar, nombre, setNombre, precio, setPrecio, c
       <CampoFormulario 
         label="Nombre del Producto *" 
         type="text" 
-        placeholder="Ej. Silla Ergonómicasssssssssssss"
+        placeholder="Dashboard Practca Ej. Zapatillas Deportivas"
         value={nombre}
         onChange={(e) => setNombre(e.target.value)}
       />
